@@ -1,0 +1,4 @@
+INFO    2022-11-05 17:45:09,943 [main] base.BaseTest  - Test execution started !!!
+INFO    2022-11-05 17:45:09,944 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2022-11-05 17:45:15,311 [main] base.BaseTest  - Chrome browser launched !!!
+INFO    2022-11-05 17:45:27,760 [main] base.BaseTest  - Navigated to : https://www.carwale.com

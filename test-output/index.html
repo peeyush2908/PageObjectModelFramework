@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Learning_Testng">
+              <span class="suite-name border-failed">Learning Testng</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Learning_Testng">
+                    <span>C:\Users\Kripa Shanker\WebDriverMarch2021\PageObjectModelFramework\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Learning_Testng">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Learning_Testng">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Learning_Testng">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Learning_Testng">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Learning_Testng">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Learning_Testng">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,  3 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Learning_Testng" class="hide-methods failed suite-Learning_Testng"> (hide)</a> <!-- hide-methods failed suite-Learning_Testng -->
+                      <a href="#" panel-name="suite-Learning_Testng" class="show-methods failed suite-Learning_Testng"> (show)</a> <!-- show-methods failed suite-Learning_Testng -->
+                    </span>
+                    <div class="method-list-content failed suite-Learning_Testng">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.FindNewCarsTest" hash-for-method="findCarTest(chrome, BMW , BMW Cars, Y)">findCarTest(chrome, BMW , BMW Cars, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.FindNewCarsTest" hash-for-method="findCarTest(chrome, Toyota, Toyota Cars, Y)">findCarTest(chrome, Toyota, Toyota Cars, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.FindNewCarsTest" hash-for-method="findCarTest(chrome, Hyundai, Hyundai Cars, Y)">findCarTest(chrome, Hyundai, Hyundai Cars, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Learning_Testng -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Learning_Testng" class="hide-methods skipped suite-Learning_Testng"> (hide)</a> <!-- hide-methods skipped suite-Learning_Testng -->
+                      <a href="#" panel-name="suite-Learning_Testng" class="show-methods skipped suite-Learning_Testng"> (show)</a> <!-- show-methods skipped suite-Learning_Testng -->
+                    </span>
+                    <div class="method-list-content skipped suite-Learning_Testng">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.CarNameAndPriceTest" hash-for-method="carNameAndPrice(chrome, Kia, N)">carNameAndPrice(chrome, Kia, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.CarNameAndPriceTest" hash-for-method="carNameAndPrice(chrome, BMW , N)">carNameAndPrice(chrome, BMW , N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.CarNameAndPriceTest" hash-for-method="carNameAndPrice(chrome, Hyundai, N)">carNameAndPrice(chrome, Hyundai, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Learning_Testng -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Learning_Testng" class="hide-methods passed suite-Learning_Testng"> (hide)</a> <!-- hide-methods passed suite-Learning_Testng -->
+                      <a href="#" panel-name="suite-Learning_Testng" class="show-methods passed suite-Learning_Testng"> (show)</a> <!-- show-methods passed suite-Learning_Testng -->
+                    </span>
+                    <div class="method-list-content passed suite-Learning_Testng">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.CarNameAndPriceTest" hash-for-method="carNameAndPrice(chrome, Toyota, Y)">carNameAndPrice(chrome, Toyota, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Learning_Testng" title="testcases.FindNewCarsTest" hash-for-method="findCarTest(chrome, Kia, Kia Cars, Y)">findCarTest(chrome, Kia, Kia Cars, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Learning_Testng -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Learning_Testng" class="panel Learning_Testng">
+          <div class="suite-Learning_Testng-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.FindNewCarsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(chrome, BMW , BMW Cars, Y)">
+                  </a> <!-- findCarTest(chrome, BMW , BMW Cars, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(chrome, BMW , BMW Cars, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div/h1&quot;}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;LAPTOP-K49GOV26&apos;, ip: &apos;192.168.0.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [106bdfc60e568f63f9c071d983fed374, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KRIPAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55819/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 106bdfc60e568f63f9c071d983fed374
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:27)
+	at testcases.FindNewCarsTest.findCarTest(FindNewCarsTest.java:43)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(chrome, Toyota, Toyota Cars, Y)">
+                  </a> <!-- findCarTest(chrome, Toyota, Toyota Cars, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(chrome, Toyota, Toyota Cars, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Find New Cars&apos;)]&quot;}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;LAPTOP-K49GOV26&apos;, ip: &apos;192.168.0.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b596c6411b33b8d3114f17cab892cf8b, findElement {using=xpath, value=//div[contains(text(),&apos;Find New Cars&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KRIPAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57256/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b596c6411b33b8d3114f17cab892cf8b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at base.BasePage.click(BasePage.java:25)
+	at pages.HomePage.findNewCars(HomePage.java:37)
+	at testcases.FindNewCarsTest.findCarTest(FindNewCarsTest.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(chrome, Hyundai, Hyundai Cars, Y)">
+                  </a> <!-- findCarTest(chrome, Hyundai, Hyundai Cars, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(chrome, Hyundai, Hyundai Cars, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div/h1&quot;}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;LAPTOP-K49GOV26&apos;, ip: &apos;192.168.0.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa324de93344c3bba87549b5bb83704, findElement {using=xpath, value=//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div/h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\KRIPAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58776/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa324de93344c3bba87549b5bb83704
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:27)
+	at testcases.FindNewCarsTest.findCarTest(FindNewCarsTest.java:43)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testng-class-failed -->
+          <div class="suite-Learning_Testng-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.CarNameAndPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Kia, N)">
+                  </a> <!-- carNameAndPrice(chrome, Kia, N) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Kia, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, BMW , N)">
+                  </a> <!-- carNameAndPrice(chrome, BMW , N) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, BMW , N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Hyundai, N)">
+                  </a> <!-- carNameAndPrice(chrome, Hyundai, N) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Hyundai, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at testcases.CarNameAndPriceTest.carNameAndPrice(CarNameAndPriceTest.java:18)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testng-class-skipped -->
+          <div class="suite-Learning_Testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.FindNewCarsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(chrome, Kia, Kia Cars, Y)">
+                  </a> <!-- findCarTest(chrome, Kia, Kia Cars, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(chrome, Kia, Kia Cars, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testng-class-passed -->
+          <div class="suite-Learning_Testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CarNameAndPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="carNameAndPrice(chrome, Toyota, Y)">
+                  </a> <!-- carNameAndPrice(chrome, Toyota, Y) -->
+                  <span class="method-name">carNameAndPrice</span>
+                  <span class="parameters">(chrome, Toyota, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testng-class-passed -->
+        </div> <!-- panel Learning_Testng -->
+        <div panel-name="test-xml-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Kripa Shanker\WebDriverMarch2021\PageObjectModelFramework\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Learning Testng&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extentlisteners.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Find New Car Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.FindNewCarsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Find New Car Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car Name and Price Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.CarNameAndPriceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car Name and Price Test --&gt;
+&lt;/suite&gt; &lt;!-- Learning Testng --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Learning Testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Find New Car Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Car Name and Price Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Learning Testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Learning Testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Learning_Testng');
+function tableData_Learning_Testng() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'findCarTest')
+data.setCell(0, 2, 'testcases.FindNewCarsTest')
+data.setCell(0, 3, 52211);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'carNameAndPrice')
+data.setCell(1, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(1, 3, 40343);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'findCarTest')
+data.setCell(2, 2, 'testcases.FindNewCarsTest')
+data.setCell(2, 3, 40228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'findCarTest')
+data.setCell(3, 2, 'testcases.FindNewCarsTest')
+data.setCell(3, 3, 37549);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'findCarTest')
+data.setCell(4, 2, 'testcases.FindNewCarsTest')
+data.setCell(4, 3, 31160);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'carNameAndPrice')
+data.setCell(5, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'carNameAndPrice')
+data.setCell(6, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'carNameAndPrice')
+data.setCell(7, 2, 'testcases.CarNameAndPriceTest')
+data.setCell(7, 3, 1);
+window.suiteTableData['Learning_Testng']= { tableData: data, tableDiv: 'times-div-Learning_Testng'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Learning_Testng">
+              </div> <!-- times-div-Learning_Testng -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Learning Testng</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Learning_Testng" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FindNewCarsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(chrome, Toyota, Toyota Cars, Y)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41676 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(chrome, Hyundai, Hyundai Cars, Y)</span>
+                <span class="method-start">43686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(chrome, BMW , BMW Cars, Y)</span>
+                <span class="method-start">97567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findCarTest(chrome, Kia, Kia Cars, Y)</span>
+                <span class="method-start">136984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">168145 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CarNameAndPriceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">carNameAndPrice(chrome, Toyota, Y)</span>
+                <span class="method-start">172346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">carNameAndPrice(chrome, Hyundai, N)</span>
+                <span class="method-start">214582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">carNameAndPrice(chrome, BMW , N)</span>
+                <span class="method-start">214601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">carNameAndPrice(chrome, Kia, N)</span>
+                <span class="method-start">214610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214613 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

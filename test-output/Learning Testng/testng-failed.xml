@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning Testng]">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Find New Car Test(failed)">
+    <classes>
+      <class name="testcases.FindNewCarsTest">
+        <methods>
+          <include name="findCarTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.FindNewCarsTest -->
+    </classes>
+  </test> <!-- Find New Car Test(failed) -->
+  <test thread-count="5" name="Car Name and Price Test(failed)">
+    <classes>
+      <class name="testcases.CarNameAndPriceTest">
+        <methods>
+          <include name="carNameAndPrice" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CarNameAndPriceTest -->
+    </classes>
+  </test> <!-- Car Name and Price Test(failed) -->
+</suite> <!-- Failed suite [Learning Testng] -->
